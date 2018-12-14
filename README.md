@@ -1,20 +1,14 @@
 # Classic Arcade Game Clone Project
+How to play :
+Open the index.html file and play the game on your browser.
 
-## Table of Contents
+*Use  arrow keys to play the game.
+*To move upwards - up arrow.
+To move Downwards - down Arrow .
+To move rightwards - right arrow .
+To move leftwards - left arrow
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
-
-## Instructions
-
-Use this [rubric](https://review.udacity.com/#!/rubrics/2013/view) for self-checking your submission.
-
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
-
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Rules and Winning condition
+Our goal is to reach the Water ( blue color) without colliding with enemies on the game.
+if player got hit by sprite , player goes to initial position and you should play the game again.
+if player reaches water , you won the game . Enjoy and play again.
